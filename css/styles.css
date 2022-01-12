@@ -1,0 +1,40 @@
+/******************************Tag Selectors**************************/
+/*
+note:  class and id selectors are more powerful then tag selectors
+two tags cannot have same ids but two tags can have same classes
+you can also use two classes for same tag, similarly as we applied in our diamond's image tag
+but you can not have more than one ids for a particular element
+*/
+
+h1:hover{   /* hover is a psuedo class they mostly have colon before them, they are used to give differnt states to html elements */
+  color: blue;
+  font-size: 50px;
+}
+/*
+img{
+  background-color: green;
+}
+*/
+
+/******************************Class Selectors**************************/
+
+.Diamond{
+  background-color: green;
+}
+.circular{
+  border-radius: 100px;
+}
+.coal{
+  background-color: red;
+}
+
+/******************************id Selectors**************************/
+#para1{
+  color: teal;
+}
+#para2{
+  color: grey;
+}
+#para3{
+  color: black;
+}
